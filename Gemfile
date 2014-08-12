@@ -27,7 +27,10 @@ gem 'jquery-ui-rails'
 
 gem 'slim'
 
-gem 'scrypt' # required for authlogic even though it's not used
+# gem 'scrypt' # required for authlogic even though it's not used will not work in ARM due to -msse and -msse2
+# cc1: error: unrecognized command line option '-msse'
+# cc1: error: unrecognized command line option '-msse2'
+
 gem 'authlogic'
 
 gem 'bcrypt'
