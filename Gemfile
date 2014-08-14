@@ -28,7 +28,7 @@ gem 'jquery-ui-rails'
 gem 'slim'
 
 # gem 'scrypt' # required for authlogic even though it's not used will not work in ARM due to -msse and -msse2
-gem 'scrypt', :git => "https://github.com/amahi/scrypt.git"
+gem 'scrypt', :git => "https://github.com/mattman73/scrypt.git"
 # cc1: error: unrecognized command line option '-msse'
 # cc1: error: unrecognized command line option '-msse2'
 
